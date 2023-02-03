@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  /* background-color: rgb(15, 245, 107); */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.form {
+  width: 80%;
+  height: auto;
+  border-radius: 19px;
+  background: #e0e0e0;
+  box-shadow: inset 15px 15px 90px #969696,
+              inset -15px -15px 90px #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.form-section {
+  width: 70%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+width: 30%;
+  font-size: 50px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 19px;
+
+}
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px 50px;
+  outline: none;
+}
+.subbtn{
+  width: 100%;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: blue;
+  border: none;
+  color: white;
+  cursor: auto;
+
+  background: #e0e0e0;
+  box-shadow: inset 15px 15px 90px #520ee5,
+              inset -15px -15px 90px #2b08f6;
+}
+.UL {
+  width: 70%;
+ margin: 20px;
+
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.li{
+    width: 100%;
+    padding: 5px 20px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background-color: blueviolet;
+}
+
+.dlbtn {
+  width: 30px;
+  padding: 5px;
+border: none;
+  background-color: red;
+}
+
+
+
+
+
+/* MEDIA FOR  */
+
+@media (max-width:768px){
+    h1 {
+        width: 100%;
+          font-size: 30px;
+        }
+.form{
+    width: 100%;
+}
+
+}
